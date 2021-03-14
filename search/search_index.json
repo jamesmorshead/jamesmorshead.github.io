@@ -1,1 +1,1 @@
-{"config":{"lang":["en"],"min_search_length":3,"prebuild_index":false,"separator":"[\\s\\-]+"},"docs":[{"location":"","text":"James Morshead this is a change i made","title":"Home"},{"location":"#james-morshead","text":"this is a change i made","title":"James Morshead"}]}
+{"config":{"lang":["en"],"min_search_length":3,"prebuild_index":false,"separator":"[\\s\\-]+"},"docs":[{"location":"","text":"James Morshead","title":"Home"},{"location":"#james-morshead","text":"","title":"James Morshead"}]}
