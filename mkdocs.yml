@@ -1,1 +1,27 @@
-site_name: James Morshead Construction
+site_name: James Morshead
+
+site_dir: site
+docs_dir: docs
+site_url: https://jamesmorshead.github.io/
+
+theme:
+  icon:
+    logo: material/account-circle
+  name: "material"
+  font:
+    text: 'Exo'
+    code: 'Fira Mono'
+  palette:
+    primary: 'black'
+    accent: 'indigo'
+
+nav:
+- Home: index.md
+
+plugins:
+- search
+
+markdown_extensions:
+- pymdownx.emoji:
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
