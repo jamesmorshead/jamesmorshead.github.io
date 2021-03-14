@@ -14,6 +14,7 @@ def publish(session):
         message = session.posargs[0]
     except IndexError:
         session.print("Did not publish - no change description. Replace MY-UPDATE in the following command: nos -s publish -- 'MY-UPDATE'")
+        raise nox.Exit(1)
     session.run("git", "add", "--all")
     session.run("git", "commit", "-m", repr(message))
     session.run("git", "push", "origin", "main")
