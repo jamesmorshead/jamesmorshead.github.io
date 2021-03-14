@@ -13,12 +13,14 @@ pip install -r requirements.txt
 # Development Server
 
 ```bash
-mkdocs serve
+nox -s develop
 ```
 
 
-# Deploy
+# Publish
+
+Replace `MY CHANGES` in the following command:
 
 ```bash
-mkdocs gh-deploy
+nox -s publish -- 'MY CHANGES'
 ```
